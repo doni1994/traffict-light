@@ -1,6 +1,6 @@
 from gpiozero import LED
 from time import sleep
-#CV. MITRA PRATAMA TEHNIK
+#doni1994
 
 
 ledMerah1 = LED(12)
