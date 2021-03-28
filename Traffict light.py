@@ -1,0 +1,143 @@
+from gpiozero import LED
+from time import sleep
+#CV. MITRA PRATAMA TEHNIK
+
+
+ledMerah1 = LED(12)
+ledMerah2 = LED (5)
+ledMerah3 = LED (13)
+ledMerah4 = LED (6)
+
+ledKuning1 = LED(16)
+ledKuning2 = LED(23)
+ledKuning3 = LED(22)
+ledKuning4 = LED(17)
+
+ledHijau1 = LED(24)
+ledHijau2 = LED(27)
+ledHijau3 = LED(25)
+ledHijau4 = LED(26)
+
+
+while True:
+    #simpang 1
+    ledMerah1.off()
+    ledMerah2.on()
+    ledMerah3.on()
+    ledMerah4.on()
+    ledHijau1.on()
+    ledHijau2.off()
+    ledHijau3.off()
+    ledHijau4.off()
+    ledKuning1.off()
+    ledKuning2.off()
+    ledKuning3.off()
+    ledKuning4.off()
+    sleep(30)
+
+#Lampu Kuning simpang 1
+    ledMerah1.off()
+    ledMerah2.on()
+    ledMerah3.on()
+    ledMerah4.on()
+    ledHijau1.off()
+    ledHijau2.off()
+    ledHijau3.off()
+    ledHijau4.off()
+    ledKuning1.on()
+    ledKuning2.off()
+    ledKuning3.off()
+    ledKuning4.off()
+    sleep(15)
+
+#simpang 2
+    ledMerah1.on()
+    ledMerah2.off()
+    ledMerah3.on()
+    ledMerah4.on()
+    ledHijau1.off()
+    ledHijau2.on()
+    ledHijau3.off()
+    ledHijau4.off()
+    ledKuning1.off()
+    ledKuning2.off()
+    ledKuning3.off()
+    ledKuning4.off()
+    sleep(30)
+
+#lampu kuning Simpang 2
+
+    ledMerah1.on()
+    ledMerah2.off()
+    ledMerah3.on()
+    ledMerah4.on()
+    ledHijau1.off()
+    ledHijau2.off()
+    ledHijau3.off()
+    ledHijau4.off()
+    ledKuning1.off()
+    ledKuning2.on()
+    ledKuning3.off()
+    ledKuning4.off()
+    sleep(15)
+
+#simpang 3
+    ledMerah1.on()
+    ledMerah2.on()
+    ledMerah3.off()
+    ledMerah4.on()
+    ledHijau1.off()
+    ledHijau2.off()
+    ledHijau3.on()
+    ledHijau4.off()
+    ledKuning1.off()
+    ledKuning2.off()
+    ledKuning3.off()
+    ledKuning4.off()
+    sleep(30)
+
+#Lampu Kuning Simpang 3
+    ledMerah1.on()
+    ledMerah2.on()
+    ledMerah3.off()
+    ledMerah4.on()
+    ledHijau1.off()
+    ledHijau2.off()
+    ledHijau3.off()
+    ledHijau4.off()
+    ledKuning1.off()
+    ledKuning2.off()
+    ledKuning3.on()
+    ledKuning4.off()
+    sleep(15)
+
+#simpang 4
+    ledMerah1.on()
+    ledMerah2.on()
+    ledMerah3.on()
+    ledMerah4.off()
+    ledHijau1.off()
+    ledHijau2.off()
+    ledHijau3.off()
+    ledHijau4.on()
+    ledKuning1.off()
+    ledKuning2.off()
+    ledKuning3.off()
+    ledKuning4.off()
+    sleep(30)
+
+#Lampu Kuning Simpang 4
+    ledMerah1.on()
+    ledMerah2.on()
+    ledMerah3.on()
+    ledMerah4.off()
+    ledHijau1.off()
+    ledHijau2.off()
+    ledHijau3.off()
+    ledHijau4.off()
+    ledKuning1.off()
+    ledKuning2.off()
+    ledKuning3.off()
+    ledKuning4.on()
+    sleep(15)
+
